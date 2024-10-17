@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <!--Vista tree de producto-->
+    <record id="producto_tree_view" model="ir.ui.view">
+        <field name="name">comercializador.producto.tree.view</field>
+        <field name="model">comercializador.producto</field>
+        <field name="arch" type="xml">
+            <tree string="Productos">
+                <field name="nombre" width="2%" />
+                <field name="version" />
+                <!-- <field name="precio_suscripcion" width="1%"/> -->
+                <field name="precio_total"/>
+                <field name="division_id" width="1.3%"/>
+            </tree>
+        </field>
+
+    </record>
+
+    <!--Vista form de producto-->
+    <record id="producto_form_view" model="ir.ui.view">
+        <field name="name">comercializador.producto.form.view</field>
+        <field name="model">comercializador.producto</field>
+        <field name="arch" type="xml">
+            <form string="producto">
+                <sheet>
+                    <group col="3">
+                        <group colspan="2">
+                            <div/>
+                            <field name="nombre" />
+                            <field name="division_id"/>
+                            <field name="version"/>
+                            <field name="descripcion"/>
+                            <field name="precio_total"/>
+                        </group>
+                    </group>
+                </sheet>
+                <!-- <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div> -->
+            </form>
+        </field>
+    </record>
+
+    <!--Vista Search de producto-->
+    <record id="producto_search_view" model="ir.ui.view">
+        <field name="name">comercializador.producto.search.view</field>
+        <field name="model">comercializador.producto</field>
+        <field name="arch" type="xml">
+            <search>
+
+                <!--Vista Search-->
+                <field name="nombre" string="Producto"/>
+                <field name="division_id" string="División"/>
+
+                <!--Group by-->
+                <group expand="0" string="Agrupar por" colspan="12" col="10">
+                    <filter name="nombre" string="Nombre" context="{'group_by':'nombre'}"/>
+                    <filter name="division_id" string="División" context="{'group_by':'division_id'}"/>
+                </group>
+
+                <!--Search Panel-->
+                <searchpanel>
+                    <field name="division_id" string="División" />
+                </searchpanel>
+            </search>
+        </field>
+    </record>
+
+</odoo>

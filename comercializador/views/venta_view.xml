@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <!--Vista form de venta-->
+    <record id="venta_form_view" model="ir.ui.view">
+        <field name="name">comercializador.venta.form.view</field>
+        <field name="model">comercializador.venta</field>
+        <field name="arch" type="xml">
+            <form string="venta">
+                <sheet>
+                    <group col="3">
+                        <group style="text-align:center;" colspan="2">
+                            <div />
+                            <field name="tipo_venta" />
+                            <field name="cliente_id" />
+                            <field name="producto_id" />
+                            <field name="division_id" />
+                            <field name="fecha_venta" />
+                            <field name="importe_venta" widget='monetary' />
+                            <field name="currency_id" invisible='1' />
+                            <field name="factura" />
+                            <field name="codigo_concepto_facturacion" />
+                        </group>
+                    </group>
+                </sheet>
+                <!-- <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div> -->
+            </form>
+        </field>
+    </record>
+
+
+    <!--Vista
+    tree de venta -->
+    <record id="venta_tree_view" model="ir.ui.view">
+        <field name="name">comercializador.venta.tree.view</field>
+        <field name="model">comercializador.venta</field>
+        <field name="arch" type="xml">
+            <tree string="Ventas" js_class="button_in_tree">
+                <field name="tipo_venta" width="1%" />
+                <field name="producto_id" width="1%" />
+                <field name="cliente_id" width="1%" />
+                <field name="base_datos" />
+                <field name="division_id" width="0.8%" />
+                <field name="fecha_venta" width="0.8%" />
+                <field name="importe_venta" widget='monetary' width="0.6%" decoration-bf="1" />
+                <field name="currency_id" invisible='1' />
+            </tree>
+        </field>
+    </record>
+
+    <!--Vista
+    search de venta -->
+    <record id="venta_search_view" model="ir.ui.view">
+        <field name="name">comercializador.venta.search.view</field>
+        <field name="model">comercializador.venta</field>
+        <field name="arch" type="xml">
+            <search string="Ventas">
+                <field name="tipo_venta"/>
+                <field name="producto_id"/>
+                <field name="cliente_id" />
+                <field name="division_id" />
+                <field name="fecha_venta"/>
+                <field name="importe_venta" />
+                <field name="currency_id" invisible='1' />
+                <searchpanel>
+                    <field name="cliente_id" string="Clientes" />
+                </searchpanel>
+            </search>
+        </field>
+    </record>
+
+</odoo>

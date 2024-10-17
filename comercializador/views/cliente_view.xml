@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<odoo>
+
+    <!--Vista form de cliente-->
+    <record id="cliente_form_view" model="ir.ui.view">
+        <field name="name">comercializador.cliente.form.view</field>
+        <field name="model">comercializador.cliente</field>
+        <field name="arch" type="xml">
+            <form string="cliente">
+                <sheet>
+                    <group col="3">
+                        <group colspan="2">
+                            <div/>
+                            <field name="nombre" />
+                            <field name="reeup"/>
+                            <field name="direccion"/>
+                            <field name="telefono" widget="phone"/>
+                            <field name="provincia"/>
+                            <!-- <field name="municipio"/> -->
+                            <field name="correo"/>
+                        </group>
+                    </group>
+                </sheet>
+                <!-- <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div> -->
+            </form>
+        </field>
+    </record>
+
+    <!--Vista tree cliente-->
+    <record id="cliente_tree_view" model="ir.ui.view">
+        <field name="name">comercializador.cliente.tree.view</field>
+        <field name="model">comercializador.cliente</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="nombre"/>
+                <field name="base_datos"/>
+                <field name="provincia"/>
+                <field name="correo"/>
+            </tree>
+        </field>
+
+    </record>
+
+    <!--Vista search cliente-->
+    <record id="cliente_search_view" model="ir.ui.view">
+        <field name="name">comercializador.cliente.search.view</field>
+        <field name="model">comercializador.cliente</field>
+        <field name="arch" type="xml">
+            <search>
+
+                <!--Search-->
+                <field name="provincia" string="Provincia"/>
+                <field name="nombre" string="Nombre del Cliente"/>
+                <!-- <field name="municipio" string="Municipio"/> -->
+
+                <!--Group by-->
+                <group expand="0" string="Agrupar por" colspan="12" col="10">
+                    <filter name="nombre" string="Nombre" context="{'group_by':'nombre'}"/>
+                    <filter name="provincia" string="Provincia" context="{'group_by':'provincia'}"/>
+                    <!-- <filter name="municipio" string="Municipio" context="{'group_by':'municipio'}"/> -->
+                </group>
+
+                <!--Search Panel-->
+                <searchpanel>
+                    <field name="provincia" string="Provincias" />
+                </searchpanel>
+            </search>
+        </field>
+    </record>
+
+
+</odoo>

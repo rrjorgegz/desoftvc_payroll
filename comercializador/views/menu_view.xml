@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <!--Vista division -->
+    <record id="division_action" model="ir.actions.act_window">
+        <field name="name">División</field>
+        <field name="res_model">comercializador.division</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!--Vista
+    producto -->
+    <record id="producto_action" model="ir.actions.act_window">
+        <field name="name">Producto</field>
+        <field name="res_model">comercializador.producto</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!--Vista
+    venta -->
+    <record id="venta_action" model="ir.actions.act_window">
+        <field name="name">Ventas</field>
+        <field name="res_model">comercializador.venta</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!--Vista
+    cliente -->
+    <record id="cliente_action" model="ir.actions.act_window">
+        <field name="name">Cliente</field>
+        <field name="res_model">comercializador.cliente</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!--Vista
+    Importar Ventas -->
+    <record id="importar_ventas_action" model="ir.actions.act_window">
+        <field name="name">Importar Ventas</field>
+        <field name="res_model">comercializador.importar.ventas.wiz</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    
+
+
+    <menuitem name="Comercializador" id="comercializador_menu" />
+
+    <menuitem name="Gestionar" id="gestionar_menu" parent="comercializador_menu" />
+    <menuitem name="Reportes" id="reporte_menu" parent="comercializador_menu" />
+    <!-- <menuitem name="Pagos" id="pago_menu" parent="comercializador_menu" action="pago_action"/> -->
+    <menuitem name="Licencias" id="licencia_menu" parent="comercializador_menu" />
+
+
+    <menuitem name="Divisiones" id="division_menu" parent="gestionar_menu" action="division_action" />
+    <menuitem name="Productos" id="producto_menu" parent="gestionar_menu" action="producto_action" />
+    <menuitem name="Ventas" id="venta_menu" parent="gestionar_menu" action="venta_action" />
+    <menuitem name="Clientes" id="cliente_menu" parent="gestionar_menu" action="cliente_action" />
+    <!-- <menuitem name="Importar Ventas" id="importar_ventas_menu" parent="gestionar_menu"
+        action="importar_ventas_action" /> -->
+
+
+    <!-- <menuitem name="Vencimiento de suscripciones" id="vencimiento_menu" parent="reporte_menu"
+              action="vencimiento_action"/>
+    <menuitem name="Reporte de deudas" id="deuda_menu" parent="reporte_menu" action="deuda_action"/>
+    <menuitem name="Historial de pagos" id="pago_historico_menu" parent="reporte_menu"
+    action="pago_historico_action"/>
+    <menuitem name="Historial de ventas" id="venta_historico_menu" parent="reporte_menu"
+    action="venta_historico_action"/> -->
+
+</odoo>

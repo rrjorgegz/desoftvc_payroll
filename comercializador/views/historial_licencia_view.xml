@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="historial_licencia_form_view" model="ir.ui.view">
+        <field name="name">comercializador.historial.licencia.form.view</field>
+        <field name="model">comercializador.historial.licencia</field>
+        <field name="arch" type="xml">
+            <form string="Historial licencia" create="0" edit="0" delete="0">
+                <sheet>
+                    <group col="3">
+                        <field name="cliente_id" />
+                        <field name="user_id" />
+                        <field name="generated_date" />
+                        <field name="producto_id" />
+                        <field name="division_id" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--Vista
+    tree de historial_licencia -->
+    <record id="historial_licencia_tree_view" model="ir.ui.view">
+        <field name="name">comercializador.historial.licencia.tree.view</field>
+        <field name="model">comercializador.historial.licencia</field>
+        <field name="arch" type="xml">
+            <tree create="0" edit="0" delete="0">
+                <field name="cliente_id" />
+                <field name="base_datos" />
+                <field name="user_id" />
+                <field name="generated_date" />
+                <field name="producto_id" />
+                <field name="division_id" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="historial_licencia_search_view" model="ir.ui.view">
+        <field name="name">historial.licencia.search.view</field>
+        <field name="model">comercializador.historial.licencia</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="cliente_id" />
+                <field name="user_id" />
+                <field name="generated_date" />
+                <field name="producto_id" />
+                <field name="division_id" />
+                <searchpanel>
+                    <field name="cliente_id" string="Clientes" />
+                    <field name="producto_id" string="Productos" />
+                    <field name="division_id" string="División" />
+                </searchpanel>
+            </search>
+        </field>
+    </record>
+
+    <!--Vista
+    historial_licencia -->
+    <record id="historial_licencia_action" model="ir.actions.act_window">
+        <field name="name">Historial de Licencias</field>
+        <field name="res_model">comercializador.historial.licencia</field>
+        <field name="view_mode">tree,form,search</field>
+    </record>
+
+    <menuitem name="Historial de Licencias" id="historial_licencia_menu" parent="licencia_menu" action="historial_licencia_action" />
+</odoo>

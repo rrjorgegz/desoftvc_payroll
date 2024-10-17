@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_procesar_ventas_wiz_form" model="ir.ui.view">
+            <field name="name">comercializador.procesar.ventas.wiz.form</field>
+            <field name="model">comercializador.procesar.ventas.wiz</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <h4>Listado de ventas con importe distinto a un mes de subscripción</h4>
+                        <field name="ventas_ids">
+                            <tree create="0" delete="0" decoration-danger="es_valida == False"
+                            decoration-bf="1" decoration-success="es_valida == True">
+                                <field name="nombre_cliente" />
+                                <field name="numero_factura" />
+                                <field name="importe_venta" />
+                                <field name="tiene_cliente" />
+                                <field name="es_valida" invisible='1' />
+                                <field name="base_datos_ids" invisible='1' />
+                                <field name="pago_mayor" invisible='1' />
+                            </tree>
+                            <form>
+                                <field name="es_valida" invisible='1' />
+                                <group>
+                                    <field name="nombre_cliente" readonly="1"/>
+                                </group>
+                                <group>
+                                    <group>
+                                        <field name="importe_venta" readonly="1"/>
+                                        <field name="pago_mayor"/>
+                                    </group>
+                                    <group>
+                                        <field name="numero_factura" readonly="1"/>
+                                        <field name="fecha_pago" attrs="{'invisible': [('pago_mayor','=',False)]}" />
+                                    </group>
+                                </group>
+                                <field name="base_datos_ids" attrs="{'invisible': [('pago_mayor','=',True)]}">
+                                    <tree editable="bottom">
+                                        <field name="tiene_cliente" invisible="1"/>
+                                        <field name="nombre_base_datos" width="50%" attrs="{'readonly': [('tiene_cliente', '=', True)]}"/>
+                                        <field name="es_operacion" width="50%" attrs="{'readonly': [('tiene_cliente', '=', False)]}"/>
+                                             <!-- attrs="{'column_invisible': [('parent.tiene_cliente', '=', False)]}" /> -->
+                                    </tree>
+                                </field>
+                            </form>
+                        </field>
+                    </sheet>
+                    <footer>
+                        <button name="button_process_sales" string="Procesar" type="object"
+                            class="btn-primary" />
+                        <!-- <button string="Cancelar" class="oe_link" special="cancel" /> -->
+                    </footer>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

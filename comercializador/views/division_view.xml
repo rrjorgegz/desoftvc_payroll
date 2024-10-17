@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<odoo>
+
+    <!--Vista tree de division-->
+    <record id="division_tree_view" model="ir.ui.view">
+        <field name="name">comercializador.division.tree.view</field>
+        <field name="model">comercializador.division</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="nombre" />
+                <field name="provincia"/>
+                <field name="comercial_nombre"/>
+                <field name="comercial_correo"/>
+            </tree>
+        </field>
+    </record>
+
+    <!--Vista form de division-->
+    <record id="division_form_view" model="ir.ui.view">
+        <field name="name">comercializador.division.form.view</field>
+        <field name="model">comercializador.division</field>
+        <field name="arch" type="xml">
+            <form string="division">
+                <sheet>
+                    <group col="3" >
+                        <group style="text-align:center;" colspan="2">
+                            <div/>
+                            <field name="provincia" widget="selection"/>
+                            <field name="nombre" />
+                            <field name="comercial_nombre"/>
+                            <field name="comercial_correo"/>
+                        </group>
+                    </group>
+                </sheet>
+                <!-- <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div> -->
+            </form>
+        </field>
+    </record>
+
+    <!--Vista search division-->
+    <record id="division_search_view" model="ir.ui.view">
+        <field name="name">comercializador.division.search.view</field>
+        <field name="model">comercializador.division</field>
+        <field name="arch" type="xml">
+            <search>
+                <!--Vista Search-->
+                <field name="nombre" string="División"/>
+                <field name="comercial_nombre" string="Comercial"/>
+                <field name="provincia" string="Provincia"/>
+
+                <!--Group by-->
+                <group expand="0" string="Agrupar por" colspan="12" col="10">
+                    <filter name="nombre" string="Nombre" context="{'group_by':'nombre'}"/>
+                    <filter name="provincia" string="Provincia" context="{'group_by':'provincia'}"/>
+                    <filter name="comercial_nombre" string="Comercial" context="{'group_by':'comercial_nombre'}"/>
+                </group>
+
+                <!--Search Panel-->
+                <!-- <searchpanel>
+                    <field name="provincia" string="Provincias" />
+                </searchpanel> -->
+            </search>
+        </field>
+    </record>
+
+</odoo>

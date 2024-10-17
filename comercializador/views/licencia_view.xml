@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="licencia_form_view" model="ir.ui.view">
+        <field name="name">comercializador.licencia.form.view</field>
+        <field name="model">comercializador.licencia</field>
+        <field name="arch" type="xml">
+            <form string="licencia" create="0" edit="0" delete="0">
+                <header>
+                    <button name="generar_licencia" type="object" string="Generar licencia"
+                        class="oe_highlight" />
+                </header>
+                <sheet>
+                    <group col="3">
+                        <field name="cliente_id" />
+                        <field name="producto_id" />
+                        <field name="division_id" />
+                        <field name="ultima_venta" />
+                        <field name="importe_venta" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--Vista
+    tree de licencia -->
+    <record id="licencia_tree_view" model="ir.ui.view">
+        <field name="name">comercializador.licencia.tree.view</field>
+        <field name="model">comercializador.licencia</field>
+        <field name="arch" type="xml">
+            <tree create="0" edit="0" delete="0">
+                <field name="cliente_id" />
+                <field name="base_datos_related" />
+                <field name="producto_id" />
+                <field name="division_id" />
+                <field name="ultima_venta" />
+                <field name="fin_subscripcion" />
+                <field name="importe_venta" widget='monetary' decoration-bf="1" />
+                <field name="currency_id" invisible='1' />
+                <button name="generar_licencia" type="object" string="Generar licencia"
+                    class="oe_highlight" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="licencia_search_view" model="ir.ui.view">
+        <field name="name">licencia.search.view</field>
+        <field name="model">comercializador.licencia</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="producto_id" string="Producto" />
+                <field name="division_id" string="División" />
+                <field name="cliente_id" string="Cliente" />
+
+                <group expand="0" string="Agrupar por" colspan="12" col="10">
+                    <filter name="cliente_id" string="Cliente" context="{'group_by':'cliente_id'}" />
+                    <filter name="division_id" string="División"
+                        context="{'group_by':'division_id'}" />
+                    <filter name="producto_id" string="Producto"
+                        context="{'group_by':'producto_id'}" />
+                </group>
+
+                <searchpanel>
+                    <!-- <field name="cliente_id" string="Clientes" /> -->
+                    <field name="producto_id" string="Productos" />
+                    <field name="division_id" string="División" />
+                </searchpanel>
+            </search>
+        </field>
+    </record>
+
+    <!--Vista
+    licencia -->
+    <record id="licencia_action" model="ir.actions.act_window">
+        <field name="name">Licencias</field>
+        <field name="res_model">comercializador.licencia</field>
+        <field name="view_mode">tree,form,search</field>
+    </record>
+
+    <menuitem name="Generar Licencia" id="generar_licencia_menu" parent="licencia_menu" action="licencia_action" />
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+    <t t-extend="ListView.buttons" t-name="load_sales_wizard.buttons">
+        <t t-jquery="button.o_list_button_add" t-operation="after">
+            <button type="button" class="btn btn-primary open_wizard_action">
+                Importar Ventas
+            </button>
+        </t>
+    </t>
+</templates>
