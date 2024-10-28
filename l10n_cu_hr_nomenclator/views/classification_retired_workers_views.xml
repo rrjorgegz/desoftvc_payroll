@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <!-- FORM VIEW -->
+    <record id="l10n_cu_hr_nomenclator_classification_retired_workers_form_view" model="ir.ui.view">
+        <field name="name">classification.retired.workers.form.view</field>
+        <field name="model">classification.retired.workers</field>
+        <field name="arch" type="xml">
+            <form string="jubilaciones">
+                <group>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="l10n_cu_hr_nomenclator_classification_retired_workers_tree_view" model="ir.ui.view">
+        <field name="name">classification.retired.workers.tree.view</field>
+        <field name="model">classification.retired.workers</field>
+        <field name="arch" type="xml">
+            <tree string="jubilaciones">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="l10n_cu_hr_nomenclator_classification_retired_workers_action" model="ir.actions.act_window">
+        <field name="name">Tipos de jubilaciones</field>
+        <field name="res_model">classification.retired.workers</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem id="l10n_cu_hr_nomenclator_classification_retired_workers_menu" name="Tipos de jubilaciones" parent="l10n_cu_hr_nomenclator.menu_root" action="l10n_cu_hr_nomenclator_classification_retired_workers_action" sequence="10"/>
+
+</odoo>

@@ -1,0 +1,110 @@
+<odoo>
+    <record id="view_employee_form_inherit" model="ir.ui.view">
+        <field name="name">hr.employee.form.inherit</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <header position="inside">
+
+                <button name="discharge" type="object" groups="hr.group_hr_user" class="oe_stat_button" icon="fa-archive">
+                    <field name="working_ok" widget="boolean_button" options="{'terminology': {
+                    'string_true': 'Trabajando',
+                    'hover_true': 'Dar baja',
+                    'string_false': 'Baja',
+                    'hover_false': 'Cancelar baja',
+                    }}"/>
+                </button>
+
+            </header>
+            <field name="address_id" position="after">
+                <field name="agency_id"/>
+            </field>
+
+            <xpath expr="//div[hasclass('oe_title')]/h1" position="after">
+                <group>
+                    <group string="Nombres">
+                        <field name="first_first_name" placeholder="Primer Nombre" required="1"/>
+                        <field name="second_first_name" placeholder="Segundo Nombre"/>
+                    </group>
+                    <group string="Apellidos">
+                        <field name="first_last_name" placeholder="Primer Apellido" required="1"/>
+                        <field name="second_last_name" placeholder="Segundo Apellido" required="1"/>
+                    </group>
+                </group>
+            </xpath>
+
+            <xpath expr="//page[@name='personal_information']/group" position="inside">
+                <group name="comp_fisica" string="Composición física">
+                    <field name="raza"/>
+                    <field name="estatura"/>
+                    <field name="peso"/>
+                    <field name="tallaCamisa"/>
+                    <field name="tallaPantalon"/>
+                    <field name="tallaZapato"/>
+                </group>
+                <group name="comp_familiar" string="Composición familiar">
+                    <field name="padre"/>
+                    <field name="madre"/>
+                    <field name="familiar_ext"/>
+                </group>
+                <div>
+                    <group name="hr_organizations" string="Pertenencia a Organizaciones">
+                        <field name="org_military_ids"></field>
+                        <field name="org_politic_ids"></field>
+                        <field name="org_population_ids"></field>
+                    </group>
+                </div>
+                <div>
+                    <group>
+                        <field name="expediente"/>
+                    </group>
+                    <group string="Jubilado">
+                        <field name="is_retired"></field>
+                        <field name="is_reinstated"></field>
+                        <field name="retired_date" invisible="not is_retired"/>
+                        <field name="type_retired_id" invisible="not is_retired"/>
+                    </group>
+                    <group string="Alta y baja">
+                        <field name="register_date"></field>
+                        <field name="discharge_date"></field>
+                        <field name="discharge_reason"></field>
+                    </group>
+
+                </div>
+            </xpath>
+
+            <field name="certificate" position="attributes">
+                <attribute name="invisible">True</attribute>
+            </field>
+            <field name="certificate" position="after">
+                <field name="certificado"></field>
+            </field>
+
+            <field name="study_field" position="attributes">
+                <attribute name="invisible">True</attribute>
+            </field>
+            <field name="study_field" position="after">
+                <field name="campo_estudio"></field>
+            </field>
+
+
+            <field name="department_id" position="attributes">
+                <attribute name="domain=[('company_id', '==', 'company_id')]"/>
+            </field>
+            <field name="job_id" position="attributes">
+                <attribute name="domain=[('department_id', '==', 'department_id')]"/>
+            </field>
+
+            <page name="hr_settings" position="inside">
+                <group name="cheq_medico" string="Chequeo medico">
+                    <field name="fecha_ini_chequeo"/>
+                    <field name="fecha_fin_chequeo"/>
+                </group>
+                <group name="document_require">
+                    <field name="document_require"/>
+                </group>
+            </page>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="jub_1" model="classification.retired.workers">
+            <field name="name">MININT</field>
+        </record>
+        <record id="jub_2" model="classification.retired.workers">
+            <field name="name">FAR</field>
+        </record>
+        <record id="jub_3" model="classification.retired.workers">
+            <field name="name">Comisión médica</field>
+        </record>
+        <record id="jub_4" model="classification.retired.workers">
+            <field name="name">Por edad</field>
+        </record>
+
+    </data>
+</odoo>

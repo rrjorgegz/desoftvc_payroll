@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <!--Municipality-->
+        <!-- TREE VIEW -->
+        <record id="view_country_state_municipality_tree" model="ir.ui.view">
+            <field name="name">res.country.state.municipality.tree</field>
+            <field name="model">res.country.state.municipality</field>
+            <field name="arch" type="xml">
+                <tree string="Municipio">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="dpa_code"/>
+                    <field name="state_id"/>
+                    <field name="country_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- FORM VIEW -->
+        <record id="view_country_state_municipality_form" model="ir.ui.view">
+            <field name="name">res.country.state.municipality.form</field>
+            <field name="model">res.country.state.municipality</field>
+            <field name="arch" type="xml">
+                <form string="Municipio">
+                    <group>
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="dpa_code"/>
+                        <field name="state_id" options='{"no_open": True}'/>
+                        <field name="country_id" options='{"no_open": True}'/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <!-- ACTION -->
+        <record id="action_country_state_municipality" model="ir.actions.act_window">
+            <field name="name">Municipio</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.country.state.municipality</field>
+            <field name="view_id" ref="view_country_state_municipality_tree"/>
+            <field name="help">If you are working on Cuban market, you can manage the different municipality you are working on from here. Each municipality is attached to one state.</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- MENU ITEM -->
+        <menuitem id="menu_country_state_municipality"
+        action="action_country_state_municipality"
+        name="Municipio" parent="contacts.menu_localisation"
+        sequence="3"/>
+
+</odoo>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="contract_1" model="hr.contract">
+            <field name="name">ALAIN GARCIA DE LA PAZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_1"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_2" model="hr.contract">
+            <field name="name">Diana Mabel del Freno Justo</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_2"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_3" model="hr.contract">
+            <field name="name">YOSVANI TURRO DIAZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_3"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_4" model="hr.contract">
+            <field name="name">EVELYN GARCIA PEREZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_4"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+
+        <record id="contract_5" model="hr.contract">
+            <field name="name">VIVIANA LUCIA CORREA YTURRIA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_5"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_6" model="hr.contract">
+            <field name="name">YASENIA PERDOMO VIERA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_6"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_7" model="hr.contract">
+            <field name="name">LESTER ISMAR PEREZ MONTEAGUDO </field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_7"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_8" model="hr.contract">
+            <field name="name">LESDEY SAAVEDRA LOPEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_8"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_9" model="hr.contract">
+            <field name="name">Roberto Peñate Herrera</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_9"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_10" model="hr.contract">
+            <field name="name">YALINA LAMAS GARCIA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_10"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_11" model="hr.contract">
+            <field name="name">ORESTES ALEJANDRO MOYA RODRIGUEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_11"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_12" model="hr.contract">
+            <field name="name">MARIO LUIS DEL POZO HERNANDEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_12"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_13" model="hr.contract">
+            <field name="name">MERCEDES ESCOBAR ZARAGOZA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_13"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_14" model="hr.contract">
+            <field name="name">YADIER DIAZ CARDENAS</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_14"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_15" model="hr.contract">
+            <field name="name">MIGUEL LANTIGUA TRUJILLO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_15"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_16" model="hr.contract">
+            <field name="name">DAYLENIS ARMAS PEREZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_16"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_17" model="hr.contract">
+            <field name="name">DANAISY HERNANDEZ VALLADARES</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_17"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_18" model="hr.contract">
+            <field name="name">KATIA GONZALEZ CABRERA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_18"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_19" model="hr.contract">
+            <field name="name">VISMAR SANTOS HERNANDEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_19"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_20" model="hr.contract">
+            <field name="name">YAMILA MORALES GONZALEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_20"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_21" model="hr.contract">
+            <field name="name">SERAFIN FRANCISCO ALVAREZ ARMA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_21"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_22" model="hr.contract">
+            <field name="name">DANAY DELGADO SANCHEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_22"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_23" model="hr.contract">
+            <field name="name">ONISLEY DEL BUSTO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_23"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_24" model="hr.contract">
+            <field name="name">JULIO ERNESTO LA ROSA MACIAS</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_24"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_25" model="hr.contract">
+            <field name="name">MARTHA YARITZA RODRIGUEZ MIRAN</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_25"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_26" model="hr.contract">
+            <field name="name">ELISMAGUI PEREZ OLIVERA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_26"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_27" model="hr.contract">
+            <field name="name">MAYLYN MACHADO DUMENIGO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_27"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_28" model="hr.contract">
+            <field name="name">LESTER LEONARDO GONZALEZ RODRIGUEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_28"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_29" model="hr.contract">
+            <field name="name">NEYBEL GONZALEZ IBARGOLLIN</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_29"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_30" model="hr.contract">
+            <field name="name">YARAY NAVARRO CASTELLANO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_30"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_31" model="hr.contract">
+            <field name="name">Gilberto Darcy Herrera Lopez</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_31"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_32" model="hr.contract">
+            <field name="name">LUIS ALBERTO REYES QUESADA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_32"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_33" model="hr.contract">
+            <field name="name">TERESITA RGUEZ GLEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_33"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_34" model="hr.contract">
+            <field name="name">OSMANY RAMON MORALES AGUILA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_34"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_35" model="hr.contract">
+            <field name="name">LEISY PEREZ HDEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_35"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_36" model="hr.contract">
+            <field name="name">LISABET GONZALEZ ALBA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_36"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_37" model="hr.contract">
+            <field name="name">YADIRA RODRIGUEZ CARRAZANA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_37"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_38" model="hr.contract">
+            <field name="name">SULEY LUGONES OLIVERA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_38"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_39" model="hr.contract">
+            <field name="name">NERELYS TRIMIÑO GARAY</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_39"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_40" model="hr.contract">
+            <field name="name">ADONIS ALMEIDA MONTESINO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_40"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_41" model="hr.contract">
+            <field name="name">ALEJANDRO PUERTA DIAZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_41"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_42" model="hr.contract">
+            <field name="name">CARLOS MIGUEL GARCIA RAFAEL</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_42"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_43" model="hr.contract">
+            <field name="name">JORGE LUIS GARCIA TRIANA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_43"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_44" model="hr.contract">
+            <field name="name">JOSE ALBERTO LARA PEREZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_44"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_45" model="hr.contract">
+            <field name="name">LUIS IZQUIERDO RIVERO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_45"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_46" model="hr.contract">
+            <field name="name">PATRICIA RIVALTA MACHADO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_46"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_47" model="hr.contract">
+            <field name="name">RADNER PEREZ GUERRA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_47"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_48" model="hr.contract">
+            <field name="name">RAFAEL RUBEN JORGE GONZALEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_48"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_49" model="hr.contract">
+            <field name="name">MILEIDI IGLESIAS CUELLAR</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_49"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_50" model="hr.contract">
+            <field name="name">JORGE DAVID HERNANDEZ LLANES</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_50"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_4"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_51" model="hr.contract">
+            <field name="name">YAIMA MEDEROS HERRERA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_51"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_4"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_52" model="hr.contract">
+            <field name="name">MIGUEL A. GONZALEZ PULIDO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_52"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_4"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_53" model="hr.contract">
+            <field name="name">CARIDAD ARELYS RGUEZ GALINDO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_53"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_54" model="hr.contract">
+            <field name="name">DAIMARA PENA COMAS</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_54"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_55" model="hr.contract">
+            <field name="name">DAYAMI DE ARMAS</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_55"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_56" model="hr.contract">
+            <field name="name">EDDY MACHADO HDEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_56"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_57" model="hr.contract">
+            <field name="name">EDIANA GONZALEZ MACHADO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_57"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_58" model="hr.contract">
+            <field name="name">HIRAM PEREZ DE MORALES PEREZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_58"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_59" model="hr.contract">
+            <field name="name">ILDA LOPEZ COLL</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_59"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_60" model="hr.contract">
+            <field name="name">JOSE RODOVALDO PEREZ HERRERA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_60"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_61" model="hr.contract">
+            <field name="name">LISET PEREZ ARBOLAEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_61"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_62" model="hr.contract">
+            <field name="name">MASSIEL MARTINEZ CAMACHO</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_62"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_63" model="hr.contract">
+            <field name="name">ONDREY CABALLERO DIAZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_63"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_64" model="hr.contract">
+            <field name="name">OSCAR LUIS AMBRUSTER JIMENEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_64"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_65" model="hr.contract">
+            <field name="name">TAIRYS PEREZ GUANCHE</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_65"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_66" model="hr.contract">
+            <field name="name">TATIANA GARCIA MIRABAL</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_66"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_67" model="hr.contract">
+            <field name="name">RICARDO GARCIA AVILA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_67"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_68" model="hr.contract">
+            <field name="name">YADIEL DIAZ ZAMORA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_68"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_69" model="hr.contract">
+            <field name="name">YADIER VALDEZ PEREZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_69"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_70" model="hr.contract">
+            <field name="name">YADIRA MORALES AGUILAR</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_70"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_71" model="hr.contract">
+            <field name="name">YARAIZA REYES RODRIGUEZ</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_71"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_72" model="hr.contract">
+            <field name="name">YENLIDIE GLEZ BATISTA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_72"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_73" model="hr.contract">
+            <field name="name">YISEL ARBOLAEZ GUERRA</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_73"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="contract_74" model="hr.contract">
+            <field name="name">YISELL GOMEZ MONTIEL</field>
+            <field name="state">open</field>
+            <field name="contract_type_id" ref="hr.contract_type_permanent"/>
+            <field name="wage" eval="0"/>
+            <field name="employee_id" ref="l10n_cu_hr_nomenclator.employee_74"/>
+            <field name="structure_type_id" ref="hr_contract.structure_type_employee"/>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <!-- FORM VIEW -->
+    <record id="hr_rejects_form_view" model="ir.ui.view">
+        <field name="name">hr_rejects_form_view</field>
+        <field name="model">hr.rejects</field>
+        <field name="arch" type="xml">
+            <form string="Tipos de medida">
+                <group>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="hr_rejects_tree_view" model="ir.ui.view">
+        <field name="name">hr_rejects_tree_view</field>
+        <field name="model">hr.rejects</field>
+        <field name="arch" type="xml">
+            <tree string="Tipos de medida">
+                <field name="name"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="hr_rejects_action" model="ir.actions.act_window">
+        <field name="name">Listado de rechazos</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.rejects</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Causas de rechazo" id="l10n_cu_hr_nomenclator_disciplinary_measures_menu" action="hr_rejects_action" parent="l10n_cu_hr_nomenclator.recruitments_menu" sequence="50"/>
+
+</odoo>

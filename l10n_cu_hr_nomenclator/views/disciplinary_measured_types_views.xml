@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <!-- TREE VIEW -->
+    <record id="disciplinary_measured_types_tree_view" model="ir.ui.view">
+        <field name="name">Tipo de medidas disciplinarias</field>
+        <field name="model">disciplinary.measured.types</field>
+        <field name="arch" type="xml">
+            <tree string="Tipos de medida">
+                <field name="name"/>
+                <field name="order"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FORM VIEW -->
+    <record id="disciplinary_measured_types_form_view" model="ir.ui.view">
+        <field name="name">Tipo de medidas disciplinarias</field>
+        <field name="model">disciplinary.measured.types</field>
+        <field name="arch" type="xml">
+            <form string="Tipos de medida">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="order"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <!-- ACTION -->
+    <record id="disciplinary_measured_types_action" model="ir.actions.act_window">
+        <field name="name">Tipo de medidas disciplinarias</field>
+        <field name="res_model">disciplinary.measured.types</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Tipo de medidas disciplinarias" id="disciplinary_measured_types_menu" action="disciplinary_measured_types_action" parent="l10n_cu_hr_nomenclator.sanction_menu" sequence="50"/>
+
+</odoo>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data noupdate="1">
+        <record id="org_mil1" model="org.populations">
+            <field name="name">CDR</field>
+        </record>
+        <record id="org_mil2" model="org.populations">
+            <field name="name">FMC</field>
+        </record>
+        <record id="org_mil55" model="org.populations">
+            <field name="name">ANIR</field>
+        </record>
+        <record id="org_mil6" model="org.populations">
+            <field name="name">BTJ</field>
+        </record>
+        <record id="org_mil7" model="org.populations">
+            <field name="name">CTC</field>
+        </record>
+	</data>
+</odoo>

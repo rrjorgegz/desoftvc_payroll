@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="employee_1" model="hr.employee">
+            <field name="name">ALAIN GARCIA DE LA PAZ</field>
+            <field name="first_first_name">ALAIN</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GARCIA</field>
+            <field name="second_last_name">DE LA PAZ</field>
+            <field name="expediente">09141</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_2" model="hr.employee">
+            <field name="name">Diana Mabel del Freno Justo</field>
+            <field name="first_first_name">Diana</field>
+            <field name="second_first_name">Mabel</field>
+            <field name="first_last_name">del Freno</field>
+            <field name="second_last_name">Justo</field>
+            <field name="expediente">11370</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_3" model="hr.employee">
+            <field name="name">YOSVANI TURRO DIAZ</field>
+            <field name="first_first_name">YOSVANI</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">TURRO</field>
+            <field name="second_last_name">DIAZ</field>
+            <field name="expediente">15549</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_4" model="hr.employee">
+            <field name="name">EVELYN GARCIA PEREZ</field>
+            <field name="first_first_name">EVELYN</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GARCIA</field>
+            <field name="second_last_name">PEREZ</field>
+            <field name="expediente">15855</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+
+        <record id="employee_5" model="hr.employee">
+            <field name="name">VIVIANA LUCIA CORREA YTURRIA</field>
+            <field name="first_first_name">VIVIANA</field>
+            <field name="second_first_name">LUCIA</field>
+            <field name="first_last_name">CORREA</field>
+            <field name="second_last_name">YTURRIA</field>
+            <field name="expediente">29698</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_6" model="hr.employee">
+            <field name="name">YASENIA PERDOMO VIERA</field>
+            <field name="first_first_name">YASENIA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PERDOMO</field>
+            <field name="second_last_name">VIERA</field>
+            <field name="expediente">33931</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_6"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_7" model="hr.employee">
+            <field name="name">LESTER ISMAR PEREZ MONTEAGUDO </field>
+            <field name="first_first_name">LESTER</field>
+            <field name="second_first_name">ISMAR</field>
+            <field name="first_last_name">PEREZ</field>
+            <field name="second_last_name">MONTEAGUDO</field>
+            <field name="expediente">09708</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_8" model="hr.employee">
+            <field name="name">LESDEY SAAVEDRA LOPEZ</field>
+            <field name="first_first_name">LESDEY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">SAAVEDRA</field>
+            <field name="second_last_name">LOPEZ</field>
+            <field name="expediente">11539</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_9" model="hr.employee">
+            <field name="name">Roberto Peñate Herrera</field>
+            <field name="first_first_name">Roberto</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">Peñate</field>
+            <field name="second_last_name">Herrera</field>
+            <field name="expediente">13228</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_10" model="hr.employee">
+            <field name="name">YALINA LAMAS GARCIA</field>
+            <field name="first_first_name">YALINA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">LAMAS</field>
+            <field name="second_last_name">GARCIA</field>
+            <field name="expediente">12012</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_11" model="hr.employee">
+            <field name="name">ORESTES ALEJANDRO MOYA RODRIGUEZ</field>
+            <field name="first_first_name">ORESTES</field>
+            <field name="second_first_name">ALEJANDRO</field>
+            <field name="first_last_name">MOYA</field>
+            <field name="second_last_name">RODRIGUEZ</field>
+            <field name="expediente">12029</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_12" model="hr.employee">
+            <field name="name">MARIO LUIS DEL POZO HERNANDEZ</field>
+            <field name="first_first_name">MARIO</field>
+            <field name="second_first_name">LUIS</field>
+            <field name="first_last_name">DEL POZO</field>
+            <field name="second_last_name">HERNANDEZ</field>
+            <field name="expediente">12042</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_13" model="hr.employee">
+            <field name="name">MERCEDES ESCOBAR ZARAGOZA</field>
+            <field name="first_first_name">MERCEDES</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">ESCOBAR</field>
+            <field name="second_last_name">ZARAGOZA</field>
+            <field name="expediente">26815</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_7"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_14" model="hr.employee">
+            <field name="name">YADIER DIAZ CARDENAS</field>
+            <field name="first_first_name">YADIER</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">DIAZ</field>
+            <field name="second_last_name">CARDENAS</field>
+            <field name="expediente">12204</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_15" model="hr.employee">
+            <field name="name">MIGUEL LANTIGUA TRUJILLO</field>
+            <field name="first_first_name">MIGUEL</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">LANTIGUA</field>
+            <field name="second_last_name">TRUJILLO</field>
+            <field name="expediente">12988</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_16" model="hr.employee">
+            <field name="name">DAYLENIS ARMAS PEREZ</field>
+            <field name="first_first_name">DAYLENIS</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">ARMAS</field>
+            <field name="second_last_name">PEREZ</field>
+            <field name="expediente">13132</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_17" model="hr.employee">
+            <field name="name">DANAISY HERNANDEZ VALLADARES</field>
+            <field name="first_first_name">DANAISY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">HERNANDEZ</field>
+            <field name="second_last_name">VALLADARES</field>
+            <field name="expediente">13331</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_18" model="hr.employee">
+            <field name="name">KATIA GONZALEZ CABRERA</field>
+            <field name="first_first_name">KATIA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GONZALEZ</field>
+            <field name="second_last_name">CABRERA</field>
+            <field name="expediente">25817</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_19" model="hr.employee">
+            <field name="name">VISMAR SANTOS HERNANDEZ</field>
+            <field name="first_first_name">VISMAR</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">SANTOS</field>
+            <field name="second_last_name">HERNANDEZ</field>
+            <field name="expediente">15822</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_20" model="hr.employee">
+            <field name="name">YAMILA MORALES GONZALEZ</field>
+            <field name="first_first_name">YAMILA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">MORALES</field>
+            <field name="second_last_name">GONZALEZ</field>
+            <field name="expediente">14892</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_8"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_21" model="hr.employee">
+            <field name="name">SERAFIN FRANCISCO ALVAREZ ARMA</field>
+            <field name="first_first_name">SERAFIN</field>
+            <field name="second_first_name">FRANCISCO</field>
+            <field name="first_last_name">ALVAREZ</field>
+            <field name="second_last_name">ARMA</field>
+            <field name="expediente">17081</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_22" model="hr.employee">
+            <field name="name">DANAY DELGADO SANCHEZ</field>
+            <field name="first_first_name">DANAY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">DELGADO</field>
+            <field name="second_last_name">SANCHEZ</field>
+            <field name="expediente">12991</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_23" model="hr.employee">
+            <field name="name">ONISLEY DEL BUSTO</field>
+            <field name="first_first_name">ONISLEY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">DEL BUSTO</field>
+            <field name="second_last_name"></field>
+            <field name="expediente">12579</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_24" model="hr.employee">
+            <field name="name">JULIO ERNESTO LA ROSA MACIAS</field>
+            <field name="first_first_name">JULIO</field>
+            <field name="second_first_name">ERNESTO</field>
+            <field name="first_last_name">LA ROSA</field>
+            <field name="second_last_name">MACIAS</field>
+            <field name="expediente">21882</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_25" model="hr.employee">
+            <field name="name">MARTHA YARITZA RODRIGUEZ MIRAN</field>
+            <field name="first_first_name">MARTHA</field>
+            <field name="second_first_name">YARITZA</field>
+            <field name="first_last_name">RODRIGUEZ</field>
+            <field name="second_last_name">MIRAN</field>
+            <field name="expediente">25390</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_26" model="hr.employee">
+            <field name="name">ELISMAGUI PEREZ OLIVERA</field>
+            <field name="first_first_name">ELISMAGUI</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PEREZ</field>
+            <field name="second_last_name">OLIVERA</field>
+            <field name="expediente">14290</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_27" model="hr.employee">
+            <field name="name">MAYLYN MACHADO DUMENIGO</field>
+            <field name="first_first_name">MAYLYN</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">MACHADO</field>
+            <field name="second_last_name">DUMENIGO</field>
+            <field name="expediente">28478</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_28" model="hr.employee">
+            <field name="name">LESTER LEONARDO GONZALEZ RODRIGUEZ</field>
+            <field name="first_first_name">LESTER</field>
+            <field name="second_first_name">LEONARDO</field>
+            <field name="first_last_name">GONZALEZ</field>
+            <field name="second_last_name">RODRIGUEZ</field>
+            <field name="expediente">14466</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_29" model="hr.employee">
+            <field name="name">NEYBEL GONZALEZ IBARGOLLIN</field>
+            <field name="first_first_name">NEYBEL</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GONZALEZ</field>
+            <field name="second_last_name">IBARGOLLIN</field>
+            <field name="expediente">30230</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_30" model="hr.employee">
+            <field name="name">YARAY NAVARRO CASTELLANO</field>
+            <field name="first_first_name">YARAY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">NAVARRO</field>
+            <field name="second_last_name">CASTELLANO</field>
+            <field name="expediente">12174</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_31" model="hr.employee">
+            <field name="name">Gilberto Darcy Herrera Lopez</field>
+            <field name="first_first_name">Gilberto</field>
+            <field name="second_first_name">Darcy</field>
+            <field name="first_last_name">Herrera</field>
+            <field name="second_last_name">Lopez</field>
+            <field name="expediente">07408</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_32" model="hr.employee">
+            <field name="name">LUIS ALBERTO REYES QUESADA</field>
+            <field name="first_first_name">LUIS</field>
+            <field name="second_first_name">ALBERTO</field>
+            <field name="first_last_name">REYES</field>
+            <field name="second_last_name">QUESADA</field>
+            <field name="expediente">12506</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_33" model="hr.employee">
+            <field name="name">TERESITA RGUEZ GLEZ</field>
+            <field name="first_first_name">TERESITA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">RGUEZ</field>
+            <field name="second_last_name">GLEZ</field>
+            <field name="expediente">18076</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_34" model="hr.employee">
+            <field name="name">OSMANY RAMON MORALES AGUILA</field>
+            <field name="first_first_name">OSMANY</field>
+            <field name="second_first_name">RAMON</field>
+            <field name="first_last_name">MORALES</field>
+            <field name="second_last_name">AGUILA</field>
+            <field name="expediente">12468</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_1"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_35" model="hr.employee">
+            <field name="name">LEISY PEREZ HDEZ</field>
+            <field name="first_first_name">LEISY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PEREZ</field>
+            <field name="second_last_name">HDEZ</field>
+            <field name="expediente">06993</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_36" model="hr.employee">
+            <field name="name">LISABET GONZALEZ ALBA</field>
+            <field name="first_first_name">LISABET</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GONZALEZ</field>
+            <field name="second_last_name">ALBA</field>
+            <field name="expediente">10994</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_37" model="hr.employee">
+            <field name="name">YADIRA RODRIGUEZ CARRAZANA</field>
+            <field name="first_first_name">YADIRA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">RODRIGUEZ</field>
+            <field name="second_last_name">CARRAZANA</field>
+            <field name="expediente">05194</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_38" model="hr.employee">
+            <field name="name">SULEY LUGONES OLIVERA</field>
+            <field name="first_first_name">SULEY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">LUGONES</field>
+            <field name="second_last_name">OLIVERA</field>
+            <field name="expediente">29970</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_39" model="hr.employee">
+            <field name="name">NERELYS TRIMIÑO GARAY</field>
+            <field name="first_first_name">NERELYS</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">TRIMIÑO</field>
+            <field name="second_last_name">GARAY</field>
+            <field name="expediente">06317</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_2"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_40" model="hr.employee">
+            <field name="name">ADONIS ALMEIDA MONTESINO</field>
+            <field name="first_first_name">ADONIS</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">ALMEIDA</field>
+            <field name="second_last_name">MONTESINO</field>
+            <field name="expediente">34029</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_41" model="hr.employee">
+            <field name="name">ALEJANDRO PUERTA DIAZ</field>
+            <field name="first_first_name">ALEJANDRO</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PUERTA</field>
+            <field name="second_last_name">DIAZ</field>
+            <field name="expediente">11140</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_42" model="hr.employee">
+            <field name="name">CARLOS MIGUEL GARCIA RAFAEL</field>
+            <field name="first_first_name">CARLOS</field>
+            <field name="second_first_name">MIGUEL</field>
+            <field name="first_last_name">GARCIA</field>
+            <field name="second_last_name">RAFAEL</field>
+            <field name="expediente">34025</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_43" model="hr.employee">
+            <field name="name">JORGE LUIS GARCIA TRIANA</field>
+            <field name="first_first_name">JORGE</field>
+            <field name="second_first_name">LUIS</field>
+            <field name="first_last_name">GARCIA</field>
+            <field name="second_last_name">TRIANA</field>
+            <field name="expediente">11226</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_44" model="hr.employee">
+            <field name="name">JOSE ALBERTO LARA PEREZ</field>
+            <field name="first_first_name">JOSE</field>
+            <field name="second_first_name">ALBERTO</field>
+            <field name="first_last_name">LARA</field>
+            <field name="second_last_name">PEREZ</field>
+            <field name="expediente">06160</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_45" model="hr.employee">
+            <field name="name">LUIS IZQUIERDO RIVERO</field>
+            <field name="first_first_name">LUIS</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">IZQUIERDO</field>
+            <field name="second_last_name">RIVERO</field>
+            <field name="expediente">34903</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_46" model="hr.employee">
+            <field name="name">PATRICIA RIVALTA MACHADO</field>
+            <field name="first_first_name">PATRICIA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">RIVALTA</field>
+            <field name="second_last_name">MACHADO</field>
+            <field name="expediente">10490</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_47" model="hr.employee">
+            <field name="name">RADNER PEREZ GUERRA</field>
+            <field name="first_first_name">RADNER</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PEREZ</field>
+            <field name="second_last_name">GUERRA</field>
+            <field name="expediente">32025</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_48" model="hr.employee">
+            <field name="name">RAFAEL RUBEN JORGE GONZALEZ</field>
+            <field name="first_first_name">RAFAEL</field>
+            <field name="second_first_name">RUBEN</field>
+            <field name="first_last_name">JORGE</field>
+            <field name="second_last_name">GONZALEZ</field>
+            <field name="expediente">12227</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_49" model="hr.employee">
+            <field name="name">MILEIDI IGLESIAS CUELLAR</field>
+            <field name="first_first_name">MILEIDI</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">IGLESIAS</field>
+            <field name="second_last_name">CUELLAR</field>
+            <field name="expediente">05257</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_3"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_50" model="hr.employee">
+            <field name="name">JORGE DAVID HERNANDEZ LLANES</field>
+            <field name="first_first_name">JORGE</field>
+            <field name="second_first_name">DAVID</field>
+            <field name="first_last_name">HERNANDEZ</field>
+            <field name="second_last_name">LLANES</field>
+            <field name="expediente">12581</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_4"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_51" model="hr.employee">
+            <field name="name">YAIMA MEDEROS HERRERA</field>
+            <field name="first_first_name">YAIMA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">MEDEROS</field>
+            <field name="second_last_name">HERRERA</field>
+            <field name="expediente">12437</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_4"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_52" model="hr.employee">
+            <field name="name">MIGUEL A. GONZALEZ PULIDO</field>
+            <field name="first_first_name">MIGUEL</field>
+            <field name="second_first_name">A.</field>
+            <field name="first_last_name">GONZALEZ</field>
+            <field name="second_last_name">PULIDO</field>
+            <field name="expediente">35140</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_4"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_53" model="hr.employee">
+            <field name="name">CARIDAD ARELYS RGUEZ GALINDO</field>
+            <field name="first_first_name">CARIDAD</field>
+            <field name="second_first_name">ARELYS</field>
+            <field name="first_last_name">RGUEZ</field>
+            <field name="second_last_name">GALINDO</field>
+            <field name="expediente">22434</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_54" model="hr.employee">
+            <field name="name">DAIMARA PENA COMAS</field>
+            <field name="first_first_name">DAIMARA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PENA</field>
+            <field name="second_last_name">COMAS</field>
+            <field name="expediente">00111</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_55" model="hr.employee">
+            <field name="name">DAYAMI DE ARMAS</field>
+            <field name="first_first_name">DAYAMI</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">DE ARMAS</field>
+            <field name="second_last_name"></field>
+            <field name="expediente">14331</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_56" model="hr.employee">
+            <field name="name">EDDY MACHADO HDEZ</field>
+            <field name="first_first_name">EDDY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">MACHADO</field>
+            <field name="second_last_name">HDEZ</field>
+            <field name="expediente">05422</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_57" model="hr.employee">
+            <field name="name">EDIANA GONZALEZ MACHADO</field>
+            <field name="first_first_name">EDIANA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GONZALEZ</field>
+            <field name="second_last_name">MACHADO</field>
+            <field name="expediente">15214</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_58" model="hr.employee">
+            <field name="name">HIRAM PEREZ DE MORALES PEREZ</field>
+            <field name="first_first_name">HIRAM</field>
+            <field name="second_first_name">PEREZ</field>
+            <field name="first_last_name">DE MORALES</field>
+            <field name="second_last_name">PEREZ</field>
+            <field name="expediente">12382</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_59" model="hr.employee">
+            <field name="name">ILDA LOPEZ COLL</field>
+            <field name="first_first_name">ILDA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">LOPEZ</field>
+            <field name="second_last_name">COLL</field>
+            <field name="expediente">14252</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_60" model="hr.employee">
+            <field name="name">JOSE RODOVALDO PEREZ HERRERA</field>
+            <field name="first_first_name">JOSE</field>
+            <field name="second_first_name">RODOVALDO</field>
+            <field name="first_last_name">PEREZ</field>
+            <field name="second_last_name">HERRERA</field>
+            <field name="expediente">05846</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_61" model="hr.employee">
+            <field name="name">LISET PEREZ ARBOLAEZ</field>
+            <field name="first_first_name">LISET</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PEREZ</field>
+            <field name="second_last_name">ARBOLAEZ</field>
+            <field name="expediente">34013</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_62" model="hr.employee">
+            <field name="name">MASSIEL MARTINEZ CAMACHO</field>
+            <field name="first_first_name">MASSIEL</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">MARTINEZ</field>
+            <field name="second_last_name">CAMACHO</field>
+            <field name="expediente">14658</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_63" model="hr.employee">
+            <field name="name">ONDREY CABALLERO DIAZ</field>
+            <field name="first_first_name">ONDREY</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">CABALLERO</field>
+            <field name="second_last_name">DIAZ</field>
+            <field name="expediente">12187</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_64" model="hr.employee">
+            <field name="name">OSCAR LUIS AMBRUSTER JIMENEZ</field>
+            <field name="first_first_name">OSCAR</field>
+            <field name="second_first_name">LUIS</field>
+            <field name="first_last_name">AMBRUSTER</field>
+            <field name="second_last_name">JIMENEZ</field>
+            <field name="expediente">10980</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_65" model="hr.employee">
+            <field name="name">TAIRYS PEREZ GUANCHE</field>
+            <field name="first_first_name">TAIRYS</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">PEREZ</field>
+            <field name="second_last_name">GUANCHE</field>
+            <field name="expediente">17470</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_66" model="hr.employee">
+            <field name="name">TATIANA GARCIA MIRABAL</field>
+            <field name="first_first_name">TATIANA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GARCIA</field>
+            <field name="second_last_name">MIRABAL</field>
+            <field name="expediente">29958</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_67" model="hr.employee">
+            <field name="name">RICARDO GARCIA AVILA</field>
+            <field name="first_first_name">RICARDO</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GARCIA</field>
+            <field name="second_last_name">AVILA</field>
+            <field name="expediente">25482</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_68" model="hr.employee">
+            <field name="name">YADIEL DIAZ ZAMORA</field>
+            <field name="first_first_name">YADIEL</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">DIAZ</field>
+            <field name="second_last_name">ZAMORA</field>
+            <field name="expediente">08586</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_69" model="hr.employee">
+            <field name="name">YADIER VALDEZ PEREZ</field>
+            <field name="first_first_name">YADIER</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">VALDEZ</field>
+            <field name="second_last_name">PEREZ</field>
+            <field name="expediente">15321</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_70" model="hr.employee">
+            <field name="name">YADIRA MORALES AGUILAR</field>
+            <field name="first_first_name">YADIRA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">MORALES</field>
+            <field name="second_last_name">AGUILAR</field>
+            <field name="expediente">13290</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_71" model="hr.employee">
+            <field name="name">YARAIZA REYES RODRIGUEZ</field>
+            <field name="first_first_name">YARAIZA</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">REYES</field>
+            <field name="second_last_name">RODRIGUEZ</field>
+            <field name="expediente">15132</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_72" model="hr.employee">
+            <field name="name">YENLIDIE GLEZ BATISTA</field>
+            <field name="first_first_name">YENLIDIE</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GLEZ</field>
+            <field name="second_last_name">BATISTA</field>
+            <field name="expediente">22372</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_73" model="hr.employee">
+            <field name="name">YISEL ARBOLAEZ GUERRA</field>
+            <field name="first_first_name">YISEL</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">ARBOLAEZ</field>
+            <field name="second_last_name">GUERRA</field>
+            <field name="expediente">12433</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="employee_74" model="hr.employee">
+            <field name="name">YISELL GOMEZ MONTIEL</field>
+            <field name="first_first_name">YISELL</field>
+            <field name="second_first_name"></field>
+            <field name="first_last_name">GOMEZ</field>
+            <field name="second_last_name">MONTIEL</field>
+            <field name="expediente">12432</field>
+            <field name="department_id" ref="l10n_cu_hr_nomenclator.department_5"/>
+            <field name="resource_calendar_id" ref="l10n_cu_hr_nomenclator.resource_calendar_std_44"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+
+    </data>
+</odoo>

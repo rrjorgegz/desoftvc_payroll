@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="department_1" model="hr.department">
+            <field name="name">DIRECCION</field>
+            <field name="code">DIRECCION</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="department_2" model="hr.department">
+            <field name="name">ECONOMIA</field>
+            <field name="code">ECONOMIA</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="department_3" model="hr.department">
+            <field name="name">GRUPO DESARROLLO</field>
+            <field name="code">GRUPO DESARROLLO</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="department_4" model="hr.department">
+            <field name="name">DCION DE OPERACIONES</field>
+            <field name="code">DCION DE OPERACIONES</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="department_5" model="hr.department">
+            <field name="name">GPO INF. SANTA CLARA</field>
+            <field name="code">GPO INF. SANTA CLARA</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="department_6" model="hr.department">
+            <field name="name">GPO INF. SAGUA</field>
+            <field name="code">GPO INF. SAGUA</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="department_7" model="hr.department">
+            <field name="name">GPO INF. REMEDIOS</field>
+            <field name="code">GPO INF. REMEDIOS</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="department_8" model="hr.department">
+            <field name="name">GPO INF. PLACETAS</field>
+            <field name="code">GPO INF. PLACETAS</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+
+    </data>
+</odoo>

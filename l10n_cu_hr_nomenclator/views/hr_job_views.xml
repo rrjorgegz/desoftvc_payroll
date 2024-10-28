@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_model_form_inherited" model="ir.ui.view">
+        <field name="name">hr_job_form_employee</field>
+        <field name="model">hr.job</field>
+        <field name="inherit_id" ref="hr.view_hr_job_form"/>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <page name="job_description_page" position="before">
+                <page name="job_specific" string="Especificaciones del puesto">
+                    <group>
+                        <group name="job_specific" string="Especificaciones del puesto">
+                            <field name="scale_group_id"/>
+                            <field name="category_id"/>
+                            <field name="leader_ok"/>
+                        </group>
+                        <group/>
+                    </group>
+                </page>
+            </page>
+        </field>
+    </record>
+</odoo>

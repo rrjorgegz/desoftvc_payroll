@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <!-- FORM VIEW -->
+    <record id="causa_baja_form_view" model="ir.ui.view">
+        <field name="name">causa_baja_form_view</field>
+        <field name="model">causa.baja</field>
+        <field name="arch" type="xml">
+            <form string="Causas de baja">
+                <group>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="causa_baja_tree_view" model="ir.ui.view">
+        <field name="name">causa_baja_tree_view</field>
+        <field name="model">causa.baja</field>
+        <field name="arch" type="xml">
+            <tree string="Causas de baja">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="causa_baja_action" model="ir.actions.act_window">
+        <field name="name">Causas de baja</field>
+        <field name="res_model">causa.baja</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Causas de baja" id="causa_baja_menu" action="causa_baja_action" parent="l10n_cu_hr_nomenclator.recruitments_menu" sequence="50"/>
+
+</odoo>

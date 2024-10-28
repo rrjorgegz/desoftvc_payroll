@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <!-- FORM VIEW -->
+    <record id="nivel_certificado_form_view" model="ir.ui.view">
+        <field name="name">nivel_certificado_tree_view</field>
+        <field name="model">nivel.certificado</field>
+        <field name="arch" type="xml">
+            <form string="Nivel de certificado">
+                <group>
+                    <field name="name"/>
+                    <field name="tarifa"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="nivel_certificado_tree_view" model="ir.ui.view">
+        <field name="name">nivel_certificado_tree_view</field>
+        <field name="model">nivel.certificado</field>
+        <field name="arch" type="xml">
+            <tree string="Nivel de certificado">
+                <field name="name"/>
+                <field name="tarifa"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="nivel_certificado_action" model="ir.actions.act_window">
+        <field name="name">Nivel de certificado</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">nivel.certificado</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Nivel de certificado" id="nivel_certificado_menu" action="nivel_certificado_action" parent="l10n_cu_hr_nomenclator.position_work_menu" sequence="50"/>
+
+</odoo>

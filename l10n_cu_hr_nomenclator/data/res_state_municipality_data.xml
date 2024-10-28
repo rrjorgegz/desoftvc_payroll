@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="res_country_state_5" model="res.country.state">
+            <field name="code">26</field>
+            <field name="country_id" ref="base.cu"/>
+            <field name="name">Villa Clara</field>
+        </record>
+
+        <record id="res_state_municipality_65" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">82</field>
+            <field name="name">Camajuaní</field>
+        </record>
+
+        <record id="res_state_municipality_63" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">80</field>
+            <field name="name">Sagua la Grande</field>
+        </record>
+
+        <record id="res_state_municipality_69" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">86</field>
+            <field name="name">Santa Clara</field>
+        </record>
+
+        <record id="res_state_municipality_61" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">78</field>
+            <field name="name">Corralillo</field>
+        </record>
+
+        <record id="res_state_municipality_62" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">79</field>
+            <field name="name">Quemado de Güines</field>
+        </record>
+
+        <record id="res_state_municipality_64" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">81</field>
+            <field name="name">Encrucijada</field>
+        </record>
+
+        <record id="res_state_municipality_66" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">83</field>
+            <field name="name">Caibarién</field>
+        </record>
+
+        <record id="res_state_municipality_67" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">84</field>
+            <field name="name">Remedios</field>
+        </record>
+
+        <record id="res_state_municipality_68" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">85</field>
+            <field name="name">Placetas</field>
+        </record>
+
+        <record id="res_state_municipality_70" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">87</field>
+            <field name="name">Cifuentes</field>
+        </record>
+
+        <record id="res_state_municipality_71" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">88</field>
+            <field name="name">Santo Domingo</field>
+        </record>
+
+        <record id="res_state_municipality_72" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">89</field>
+            <field name="name">Ranchuelo</field>
+        </record>
+
+        <record id="res_state_municipality_73" model="res.country.state.municipality">
+            <field name="state_id" ref="res_country_state_5"/>
+            <field name="code">90</field>
+            <field name="name">Manicaragua</field>
+        </record>
+
+    </data>
+</odoo>

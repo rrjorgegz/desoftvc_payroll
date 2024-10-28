@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <!-- FORM VIEW -->
+    <record id="scale_group_form_view" model="ir.ui.view">
+        <field name="model">scale.group</field>
+        <field name="arch" type="xml">
+            <form string="Grupo salarial">
+                <header>
+                </header>
+                <group>
+                    <group>
+                        <field name="name"/>
+                        <field name="salary"/>
+                        <field name="hour"/>
+                    </group>
+                    <group>
+                        <field name="currency"/>
+                        <field name="code_scale_group"/>
+                    </group>
+                </group>
+
+                <notebook>
+                    <page name="evaluation" string="Evaluation">
+                        <field name="scale_group_line_ids" context="{'default_scale_group_id': id,'default_currency': currency,'default_hour': hour ,'default_salary': salary}">
+                            <tree editable="bottom">
+                                <field name="salary"/>
+                                <field name="currency"/>
+                                <field name="eval_start"/>
+                                <field name="eval_end"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="scale_group_tree_view" model="ir.ui.view">
+        <field name="model">scale.group</field>
+        <field name="arch" type="xml">
+            <tree string="Grupo salarial">
+                <field name="name"/>
+                <field name="salary"/>
+                <field name="hour"/>
+                <field name="currency"/>
+                <field name="code_scale_group"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="scale_group_action" model="ir.actions.act_window">
+        <field name="name">Grupo salarial</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">scale.group</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Grupo de salarial" id="scale_group_menu_item" action="scale_group_action" parent="l10n_cu_hr_nomenclator.position_work_menu" sequence="50"/>
+
+</odoo>

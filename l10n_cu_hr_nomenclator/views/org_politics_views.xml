@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- FORM VIEW -->
+    <record id="org_politics_form_view" model="ir.ui.view">
+        <field name="model">org.politics</field>
+        <field name="arch" type="xml">
+            <form string="Organizaciones Politicas">
+                <group>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group/>
+                </group>
+            </form>
+        </field>
+    </record>
+    <!-- TREE VIEW -->
+    <record id="org_politics_tree_view" model="ir.ui.view">
+        <field name="model">org.politics</field>
+        <field name="arch" type="xml">
+            <tree string="Organizaciones Politicas">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="org_politics_action" model="ir.actions.act_window">
+        <field name="name">Organizaciones Politicas</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">org.politics</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Politicas" id="org_politics_menu_item" action="org_politics_action" parent="l10n_cu_hr_nomenclator.organizations_menu" sequence="50"/>
+
+</odoo>

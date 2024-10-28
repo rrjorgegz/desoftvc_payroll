@@ -1,0 +1,19 @@
+<odoo>
+  <data>
+
+
+    <!-- Top menu item -->
+
+    <menuitem id="menu_root" name="Nomencladores" />
+
+    <!-- menu categories -->
+    <menuitem name="Organizaciones" id="organizations_menu" parent="l10n_cu_hr_nomenclator.menu_root"/>
+    <menuitem name="Puesto de trabajo" id="position_work_menu" parent="l10n_cu_hr_nomenclator.menu_root"/>
+    <menuitem name="Reclutamiento" id="recruitments_menu" parent="l10n_cu_hr_nomenclator.menu_root"/>
+    <menuitem name="Sanciones" id="sanction_menu" parent="l10n_cu_hr_nomenclator.menu_root"/>
+
+    <menuitem name="Compañías" action="base.action_res_company_form" id="menu_res_company_2" parent="hr.menu_human_resources_configuration" sequence="4"/>
+    <menuitem name="Tiempos de Trabajo" action="resource.action_resource_calendar_form" id="menu_res_company_2" parent="hr.menu_human_resources_configuration" sequence="4"/>
+
+  </data>
+</odoo>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <!-- FORM VIEW -->
+    <record id="necesary_docs_form_view" model="ir.ui.view">
+        <field name="name">necesary_docs_form_view</field>
+        <field name="model">necesary.docs</field>
+        <field name="arch" type="xml">
+            <form string="documentos">
+                <group>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="necesary_docs_tree_view" model="ir.ui.view">
+        <field name="name">necesary_docs_tree_view</field>
+        <field name="model">necesary.docs</field>
+        <field name="arch" type="xml">
+            <tree string="documentos">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="necesary_docs_action" model="ir.actions.act_window">
+        <field name="name">Documentos a presentar</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">necesary.docs</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Documentación necesaria" id="necesary_docs_menu" action="necesary_docs_action" parent="l10n_cu_hr_nomenclator.recruitments_menu" sequence="50"/>
+
+</odoo>

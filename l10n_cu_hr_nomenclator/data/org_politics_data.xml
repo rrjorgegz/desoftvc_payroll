@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data noupdate="1">
+        <record id="org_mil3" model="org.politics">
+            <field name="name">UJC</field>
+        </record>
+        <record id="org_mil4" model="org.politics">
+            <field name="name">PCC</field>
+        </record>
+        <record id="org_mil8" model="org.politics">
+            <field name="name">ACRC</field>
+        </record>
+
+	</data>
+</odoo>

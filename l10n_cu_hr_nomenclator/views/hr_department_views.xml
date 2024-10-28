@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+  <!-- FORM VIEW -->
+  <record id="view_department_form_inherit" model="ir.ui.view">
+    <field name="name">hr.department.view.form.inherit</field>
+    <field name="model">hr.department</field>
+    <field name="inherit_id" ref="hr.view_department_form"/>
+    <field name="arch" type="xml">
+      <field name="parent_id" position="before">
+        <field name="code" />
+      </field>
+    </field>
+  </record>
+
+  <!-- TREE VIEW -->
+  <record id="view_department_tree_inherit" model="ir.ui.view">
+    <field name="name">hr.department.view.tree.inherit</field>
+    <field name="model">hr.department</field>
+    <field name="inherit_id" ref="hr.view_department_tree"/>
+    <field name="arch" type="xml">
+      <field name="parent_id" position="before">
+        <field name="code" />
+      </field>
+    </field>
+  </record>
+
+</odoo>

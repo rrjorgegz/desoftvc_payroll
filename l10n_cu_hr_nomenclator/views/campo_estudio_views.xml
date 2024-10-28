@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <!-- FORM VIEW -->
+    <record id="campo_estudio_form_view" model="ir.ui.view">
+        <field name="name">campo_estudio_tree_view</field>
+        <field name="model">campo.estudio</field>
+        <field name="arch" type="xml">
+            <form string="Campo de estudio">
+                <group>
+                    <field name="name"/>
+                    <field name="certificado"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="campo_estudio_tree_view" model="ir.ui.view">
+        <field name="name">campo_estudio_tree_view</field>
+        <field name="model">campo.estudio</field>
+        <field name="arch" type="xml">
+            <tree string="Campo de estudio">
+                <field name="name"/>
+                <field name="certificado"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="campo_estudio_action" model="ir.actions.act_window">
+        <field name="name">Campo de estudio</field> 
+        <field name="res_model">campo.estudio</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem name="Campo de estudio" id="campo_estudio_menu" action="campo_estudio_action" parent="l10n_cu_hr_nomenclator.position_work_menu" sequence="50"/>
+
+</odoo>

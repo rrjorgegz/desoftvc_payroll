@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data noupdate="1">
+
+        <record id="doc1" model="necesary.docs">
+            <field name="name">Tres fotos</field>
+        </record>
+        <record id="doc2" model="necesary.docs">
+            <field name="name">Un sello de 5 pesos</field>
+        </record>
+        <record id="doc3" model="necesary.docs">
+            <field name="name">Autobiografía</field>
+        </record>
+        <record id="doc4" model="necesary.docs">
+            <field name="name">Certificación de estudios terminados</field>
+        </record>
+        <record id="doc5" model="necesary.docs">
+            <field name="name">Chequeo Médico</field>
+        </record>
+        <record id="doc6" model="necesary.docs">
+            <field name="name">Constancia de actualización en la defensa</field>
+        </record>
+        <record id="doc7" model="necesary.docs">
+            <field name="name">Anexo 1</field>
+        </record>
+        <record id="doc8" model="necesary.docs">
+            <field name="name">Carta de valoración del desempeño</field>
+        </record>
+        <record id="doc9" model="necesary.docs">
+            <field name="name">Certificado de ASP</field>
+        </record>
+
+	</data>
+</odoo>
