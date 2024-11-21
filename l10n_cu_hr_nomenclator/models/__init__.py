@@ -19,3 +19,4 @@ from . import res_country_state_municipality
 from . import res_partner
 from . import scale_group
 from . import scale_group_line
+from . import hr_contract

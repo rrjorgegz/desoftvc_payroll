@@ -58,6 +58,7 @@ NOMENCLADORES PARA LA UEB DESOFT VILLA CLARA (ADATECSsurl)
         'views/res_country_state_municipality_views.xml',
         'views/res_partner_views.xml',
         'views/scale_group_views.xml',
+        'views/hr_contract_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
