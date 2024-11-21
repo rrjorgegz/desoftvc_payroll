@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="generate_evaluation_view_form" model="ir.ui.view">
+        <field name="name">generate.evaluation.view.form</field>
+        <field name="model">generate.evaluation</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <header>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="date"/>
+                            <field name="employee_ids" widget="many2many_tags"/>
+                        </group>
+                        <group>
+                            <field name="entry_work_id" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+                <footer>
+                    <button string="Generar" name="generate_evaluation" type="object" class="btn-primary" data-hotkey="q"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="generate_evaluation_action" model="ir.actions.act_window">
+        <field name="name">Generar Evaluación</field>
+        <field name="res_model">generate.evaluation</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="generate_evaluation_view_form"/>
+        <field name="target">new</field>
+    </record>
+</odoo>

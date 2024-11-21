@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <!-- FORM VIEW -->
+    <record id="entry_work_adatecssurl_form_view" model="ir.ui.view">
+        <field name="name">entry.work.adatecssurl.form.view</field>
+        <field name="model">entry.work.adatecssurl</field>
+        <field name="arch" type="xml">
+            <form string="Entradas de Trabajo ADATECSsurl">
+                <header>
+                    <button string="Generar Evaluaciones" name="%(generate_evaluation_action)d" type="action" class="oe_highlight" context="{'default_entry_work_id': id }"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="date"/>
+                        </group>
+                        <group>
+                        </group>
+                    </group>
+                    <notebook colspan="4">
+                        <page string="Lista de Evaluaciones">
+                            <field name="evaluation_line_ids" context="{'entry_work_id': id}">
+                                <tree editable="bottom">
+                                    <field name="employee_id"/>
+                                    <field name="evaluation"/>
+                                    <field name="contract_id"/>
+                                    <field name="scale_group_id"/>
+                                    <field name="wage"/>
+                                    <field name="currency_id" groups="base.group_multi_currency"/>
+                                    <field name="not_employees_ids" column_invisible="True"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- TREE VIEW -->
+    <record id="entry_work_adatecssurl_tree_view" model="ir.ui.view">
+        <field name="name">entry..work.tree.view</field>
+        <field name="model">entry.work.adatecssurl</field>
+        <field name="arch" type="xml">
+            <tree string="Entradas de Trabajo ADATECSsurl">
+                <field name="name"/>
+                <field name="date"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="entry_work_adatecssurl_action" model="ir.actions.act_window">
+        <field name="name">Entradas de Trabajo ADATECSsurl</field>
+        <field name="res_model">entry.work.adatecssurl</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- MENU ITEM -->
+    <menuitem id="entry_work_adatecssurl_menu" name="Entradas de Trabajo ADATECSsurl" parent="hr_work_entry_contract_enterprise.menu_hr_payroll_work_entries_root" action="entry_work_adatecssurl_action" sequence="30" />
+
+</odoo>

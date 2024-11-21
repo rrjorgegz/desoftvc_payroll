@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="seq_evaluation_employee_adatecssurl" model="ir.sequence">
+            <field name="name">Evaluación de Empleado ADATECSsurl</field>
+            <field name="code">evaluation.employee.adatecssurl</field>
+            <field name="prefix">EEA</field> 
+            <field name="padding">5</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+        <record id="seq_entry_work_adatecssurl" model="ir.sequence">
+            <field name="name">Entradas de Trabajo ADATECSsurl</field>
+            <field name="code">entry.work.adatecssurl</field>
+            <field name="prefix">ETA</field> 
+            <field name="padding">5</field>
+            <field name="company_id" eval="False"/>
+        </record>  
+        
+    </data>
+</odoo>
