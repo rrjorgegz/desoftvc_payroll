@@ -1,0 +1,4 @@
+[submodule "addons/OCA/payroll"]
+	path = addons/OCA/payroll
+	url = https://github.com/OCA/payroll.git
+	branch = 17.0
