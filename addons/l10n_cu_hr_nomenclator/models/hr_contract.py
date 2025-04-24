@@ -6,7 +6,7 @@ from odoo import api, fields, models
 class HrContract(models.Model):
     _inherit = "hr.contract"
 
-    scale_group = fields.Many2one("scale.group", string="Grupo Escala", required=True)
+    scale_group = fields.Many2one("scale.group", string="Grupo Escala")
 
     @api.onchange("scale_group")
     def onchange_scale_group(self):

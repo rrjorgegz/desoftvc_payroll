@@ -25,8 +25,8 @@ class ScaleGroup(models.Model):
 
     _sql_constraints = [
         (
-            "id_scale_group",
-            "unique (id_scale_group)",
+            "code_scale_group",
+            "unique (code_scale_group)",
             "El ID del Grupo Escala  debe ser único!",
         ),
     ]

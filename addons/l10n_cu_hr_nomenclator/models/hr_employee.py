@@ -38,10 +38,10 @@ class HrEmployee(models.Model):
     #########################################################
     raza = fields.Selection(
         [
-            ("Blanca"),
-            ("Mestiza"),
-            ("Negra"),
-            ("Amarilla"),
+            ("blanca", "Blanca"),
+            ("mestiza", "Mestiza"),
+            ("negra", "Negra"),
+            ("amarilla", "Amarilla"),
         ],
         string="Raza (Piel)",
     )
