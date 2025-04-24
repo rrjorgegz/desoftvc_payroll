@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_entry_work_adatecssurl_manager,entry_work_adatecssurl_manager,model_entry_work_adatecssurl,base.group_user,1,1,1,1
+access_evaluation_employee_adatecssurl_manager,evaluation_employee_adatecssurl_manager,model_evaluation_employee_adatecssurl,base.group_user,1,1,1,1
+access_generate_evaluation_manager,generate_evaluation_manager,model_generate_evaluation,base.group_user,1,1,1,1

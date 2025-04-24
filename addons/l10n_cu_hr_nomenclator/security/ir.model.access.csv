@@ -1,0 +1,31 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+l10n_cu_hr_nomenclator_campo_estudio,Nomencladores Campo de estudio,model_campo_estudio,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_campo_estudio_generico,Nomencladores Campo de estudio,model_campo_estudio,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_nivel_certificado,Nomencladores Nivel de certificado,model_nivel_certificado,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_nivel_certificado_generico,Nomencladores Nivel de certificado,model_nivel_certificado,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_causa_baja,Nomencladores Causas de Bajas - ADM,model_causa_baja,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_causa_baja_generico,Nomencladores Causas de Bajas,model_causa_baja,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_grupo_tipo_jubilaciones,Nomencladores Tipo de Jubilaciones - ADM,model_classification_retired_workers,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_grupo_tipo_jubilaciones_generico,Nomencladores Tipo de Jubilaciones,model_classification_retired_workers,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_medida_disciplinaria_tipo,Nomencladores Tipo de Medidas Disciplinarias - ADM,model_disciplinary_measured_types,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_medida_disciplinaria_tipo_generico,Nomencladores Tipo de Medidas Disciplinarias,model_disciplinary_measured_types,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_MD,Nomencladores Medidas Disciplinarias - ADM,model_disciplinary_measures,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_MD_generico,Nomencladores Medidas Disciplinarias,model_disciplinary_measures,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_docs_requeridos,Nomencladores Documentos Requeridos - ADM,model_necesary_docs,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_docs_requeridos_generico,Nomencladores Documentos Requeridos,model_necesary_docs,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_militares,Nomencladores Organizaciones Militares - ADM,model_org_military,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_militares_generico,Nomencladores Organizaciones Militares,model_org_military,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_politicas,Nomencladores Políticas - ADM,model_org_politics,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_politicas_generico,Nomencladores Políticas,model_org_politics,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_org_masas,Nomencladores Organizaciones de Masas - ADM,model_org_populations,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_org_masas_generico,Nomencladores Organizaciones de Masas,model_org_populations,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_grupo_escala_line,Nomencladores Grupo Escala - ADM_line,model_scale_group_line,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_grupo_escala_line_generico,Nomencladores Grupo Escala_line,model_scale_group_line,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_grupo_escala,Nomencladores Grupo Escala - ADM,model_scale_group,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_grupo_escala_generico,Nomencladores Grupo Escala,model_scale_group,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_res_country_state_municipality,Nomencladores Municipio,model_res_country_state_municipality,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_res_country_state_municipality_generico,Nomencladores Municipio,model_res_country_state_municipality,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_hr_category,Nomencladores Categoría del cargo - ADM,model_hr_category,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_hr_category_generico,Nomencladores Categoría del cargo generico,model_hr_category,base.group_user,1,0,0,0
+l10n_cu_hr_nomenclator_CNA,Nomencladores Causas No Aprobación - ADM,model_hr_rejects,group_nomenclator_admin,1,1,1,1
+l10n_cu_hr_nomenclator_CNA_generico,Nomencladores Causas No Aprobación,model_hr_rejects,base.group_user,1,0,0,0
