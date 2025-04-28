@@ -2,3 +2,7 @@
 	path = addons/cuba-odoo/l10n-cuba
 	url = https://github.com/cuba-odoo/l10n-cuba.git
 	branch = 17.0
+[submodule "addons/odoomates/odooapps"]
+	path = addons/odoomates/odooapps
+	url = https://github.com/odoomates/odooapps.git
+	branch = 17.0
