@@ -1,4 +1,4 @@
-[submodule "addons/OCA/payroll"]
-	path = addons/OCA/payroll
-	url = https://github.com/OCA/payroll.git
+[submodule "addons/cuba-odoo/l10n-cuba"]
+	path = addons/cuba-odoo/l10n-cuba
+	url = https://github.com/cuba-odoo/l10n-cuba.git
 	branch = 17.0
