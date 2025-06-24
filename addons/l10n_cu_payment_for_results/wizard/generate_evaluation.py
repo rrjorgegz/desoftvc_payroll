@@ -24,16 +24,16 @@ class GenerateEvaluation(models.TransientModel):
                 [("employee_id", "=", employee.id), ("active", "=", True)], limit=1
             )
             if len(data) > 0:
-                contract = data[0].id
-                scale_group = data[0].scale_group.id
-                data[0].scale_group.scale_group_line_ids.filtered(
+                contract = data.id
+                scale_group = data.scale_group.id
+                scale_line_id = data.scale_group.scale_group_line_ids.filtered(
                     lambda li: 85 >= li.eval_start and 85 <= li.eval_end
                 )
-                wage = data[0].scale_group.currency._convert(
-                    from_amount=data[0].scale_group.salary,
-                    to_currency=data[0].currency_id,
+                wage = scale_line_id.scale_group_id.currency._convert(
+                    from_amount=scale_line_id.salary,
+                    to_currency=data.currency_id,
                 )
-                currency_id = data[0].currency_id
+                currency_id = data.currency_id
             line.create(
                 {
                     "evaluation": 85,

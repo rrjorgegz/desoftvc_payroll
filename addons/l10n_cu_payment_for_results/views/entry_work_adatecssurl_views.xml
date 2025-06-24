@@ -84,7 +84,7 @@
     <menuitem
     id="entry_work_adatecssurl_menu"
     name="Entradas de Trabajo ADATECSsurl"
-    parent="hr_work_entry_contract_enterprise.menu_hr_payroll_work_entries_root"
+    parent="om_hr_payroll.menu_payroll_employee"
     action="entry_work_adatecssurl_action"
     sequence="30"
   />

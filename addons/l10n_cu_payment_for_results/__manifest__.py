@@ -12,7 +12,7 @@
     # any module necessary for this one to work correctly
     "depends": [
         "l10n_cu_hr_nomenclator",
-        "l10n_cu_hr_holidays",
+        "om_hr_payroll",
     ],
     # always loaded
     "data": [
