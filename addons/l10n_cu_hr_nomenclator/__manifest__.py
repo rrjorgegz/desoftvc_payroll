@@ -10,7 +10,12 @@
     "version": "17.0.0.0.1",
     "license": "LGPL-3",
     # any module necessary for this one to work correctly
-    "depends": ["hr_skills", "hr_contract"],
+    "depends": [
+        "hr_skills",
+        "hr_contract",
+        "contacts",
+        "l10n_cu_address",
+    ],
     # always loaded
     "data": [
         "security/security.xml",
