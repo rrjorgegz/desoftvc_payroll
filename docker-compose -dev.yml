@@ -1,0 +1,68 @@
+services:
+  web:
+    image: odoo:17.0
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=odoo
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8075:8069"
+    command:
+      - -u l10n_cu_hr_nomenclator,l10n_cu_payment_for_results
+      # - --dev=all
+    volumes:
+      - odoo-web-data:/var/lib/odoo
+      - ./config/odoo.conf:/etc/odoo/odoo.conf
+      - ./addons:/mnt/extra-addons
+    networks:
+      - odoo-net
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=odoo
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    restart: unless-stopped
+    # ports:
+    #   - 5435:5432
+    volumes:
+      - odoo-db-data:/var/lib/postgresql/data/pgdata
+    networks:
+      - odoo-net
+    healthcheck: # Healthcheck para mejor manejo de dependencias
+      test: ["CMD-SHELL", "pg_isready -U odoo -d postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+      - PGADMIN_LISTEN_PORT=5050
+    restart: unless-stopped
+    ports:
+      - "5050:5050"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - odoo-pgadmin4-data:/var/lib/pgadmin
+    networks:
+      - odoo-net
+
+networks:
+  odoo-net:
+    driver: bridge
+
+volumes:
+  odoo-web-data:
+  odoo-db-data:
+  odoo-pgadmin4-data:
