@@ -10,7 +10,10 @@
     "version": "17.0.0.0.1",
     "license": "LGPL-3",
     # any module necessary for this one to work correctly
-    "depends": ["l10n_cu_hr_nomenclator", "hr_payroll_holidays"],
+    "depends": [
+        "l10n_cu_hr_nomenclator",
+        "l10n_cu_hr_holidays",
+    ],
     # always loaded
     "data": [
         "security/ir.model.access.csv",
